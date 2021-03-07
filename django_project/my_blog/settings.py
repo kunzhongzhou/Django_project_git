@@ -183,13 +183,12 @@ CKEDITOR_CONFIGS = {
         'extraPlugins': ','.join(['codesnippet']),
     }
 }
-"""
+
 # 关闭调试模式
 DEBUG = False
 
 # 允许的服务器
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['1.15.120.216']
 
 # 静态文件收集目录
 STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
-"""
